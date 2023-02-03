@@ -1,0 +1,45 @@
+.app {
+  width: 415px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #eee;
+  min-height: 100vh;
+}
+@media (max-width: 415px){
+  .app{
+    width: 100%;
+  }
+}
+.brand{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+.nav{
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  
+}
+.nav-item{
+  display: inline-block;
+  flex: 1 1 0;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 0;
+  color: #000;
+  font-size: 14px;
+}
+.nav-item:not(:last-child){
+  border-right: 1px solid #eee;
+}
+.section{
+  padding: 30px;
+}
+.section-title{
+  margin-top: 0;
+}
+.section-description{
+  line-height: 26px;
+}
